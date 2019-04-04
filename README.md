@@ -6,7 +6,6 @@ int main()
   FILE * fp;
   int Fa[10][10],states[2][10],row=0,col=0,sr=0,sc=0,flag=0,i,j,in,curr;
   char k,*str;
-  clrscr();
   fp = fopen("DFA.txt","r");
   if(fp==NULL)
   printf("file could not find\n");
